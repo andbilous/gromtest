@@ -1,10 +1,10 @@
-* {
-    font-size: 24px;
-}
-p {
-    color: green
+div{
+    display: inline;
 }
 
-li {
-    color: orange;
+span{
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
 }
