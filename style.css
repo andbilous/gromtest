@@ -19,10 +19,11 @@ a[lang="en"],a[lang*="en-"]{
     font-size: 10px ;
 }
 
+[title~='popular']{
+    font-size: 24px;
+}
+
 a[href*="www"]{
     color: green;
 }
 
-[title*='popular']{
-    font-size: 24px !important;
-}
