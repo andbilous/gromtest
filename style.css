@@ -18,7 +18,7 @@ a[lang|="en"]{
     font-size: 10px;
 }
 
-a[lang*="www"]{
+a[href*="www"]{
     color: green;
 }
 
