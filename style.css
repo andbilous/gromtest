@@ -2,28 +2,19 @@ li{
     margin-bottom: 16px;
 }
 
-a[target='_blank']{
-    border: 2px solid black;
+ol li>span{
+    background-color: green;
+    color: white;
 }
 
-a[href^="broken"]{
-    border: 2px solid red;
+ul li>span{
+    background-color: orange;
+    color: white;
 }
 
-a[href$=".com"]{
-    margin-left: 50px;
+#special +li>span{
+    border: 3px solid red;
 }
-
-
-a[lang="en"],a[lang*="en-"]{
-    font-size: 10px ;
+#special ~ li{
+    margin-left: 16px;
 }
-
-[title~='popular']{
-    font-size: 24px !important;
-}
-
-a[href*="www"]{
-    color: green;
-}
-
