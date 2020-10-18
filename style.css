@@ -7,7 +7,7 @@ li:first-child>span{
     background-color: red;
 }
 
-li:last-child>span{
+li:last-of-type>span{
     background-color: black;
     color: white;
 }
