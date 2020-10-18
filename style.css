@@ -1,7 +1,4 @@
-.container{
-    /* width: 95%;
-    height: 100%; */
-}
+
 .container>div{
     background-color: aqua;
     padding: 50px;
