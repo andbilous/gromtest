@@ -1,21 +1,20 @@
-.theory::first-letter {
-    margin-left: 16px;
-    font-size: 36px;
-    color: orange;
-}
-.theory::first-line{
-    font-size: 24px;
+input:checked{
+    margin-left: 50px;
 }
 
-.theory::selection{
-    background-color: red;
-    color: white;
+label{
+    text-transform: uppercase;
 }
 
-a::before{
-    content: '>';
+#special::first-letter{
+    color: green;
+    font-size: 100px;
 }
 
-a::after{
-    content: '<';
+h1:hover{
+    color: blue;
+}
+
+a:visited{
+    background-color: grey;
 }
