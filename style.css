@@ -25,9 +25,9 @@ main{
 .sidebar{
     float: right;
     height: 500px;
-    width: 30%;
+    width: 20%;
     background-color: grey;
-      padding-top: 50px; 
+    padding-top: 50px; 
 }
 
 .sidebar::after{
