@@ -6,9 +6,9 @@
 .container:nth-of-type(1){
     float: left;
 }
-.container:nth-of-type(2)>footer{
+/* .container:nth-of-type(2)>footer{
     margin-top: -16px;
-}
+} */
 
 
 .container:nth-of-type(2)::after{
@@ -28,8 +28,4 @@ p::after {
 .green{
     float: left;
     background-color: green;
-}
-
-.footer{
-
 }
