@@ -1,31 +1,25 @@
-header{
-    height: 50px;
-    background-color: yellow;
-    width: 100%;
-    position: absolute;
-    top: 0;
-}
-footer{
-    clear: both;		
-    height: 50px;
-    background-color: green;
-    width: 100%;
-}
-
-main{
-    width: 80%;
-    height: 500px;
-    float: left;
-    padding-top: 50px;
-    background-color: pink;
-}
-
-.sidebar{
-    float: right;
-    height: 500px;
+div{
+    height: 200px;
+    display: inline-block;
     width: 20%;
-    background-color: grey;
-    padding-top: 50px; 
 }
 
+.block_red{
+    background-color: red;
+}
 
+.block_green{
+    background-color: green;
+}
+
+.block_blue{
+    background-color: blue;
+}
+
+.block_yellow{
+    background-color: yellow;
+}
+
+.block_black{
+    background-color: black;
+}
