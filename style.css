@@ -2,8 +2,7 @@
     float: left;
     width: 47%;
     margin: 0;
-    /* box-sizing: border-box;
-    display: inline-block; */
+     box-sizing: border-box;
 }
 .container:nth-of-type(1){
     float: left;
