@@ -1,6 +1,6 @@
 .container{
     float: left;
-    width: 47%;
+    width: 50%;
     box-sizing: border-box;
 }
 .container:nth-of-type(1){
