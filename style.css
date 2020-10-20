@@ -6,9 +6,12 @@
 .container:nth-of-type(1){
     float: left;
 }
-/* .container:nth-of-type(2)>footer{
+.container:nth-of-type(1)>footer{
+    height: 26px;
+}
+.container:nth-of-type(2)>footer{
     margin-top: -16px;
-} */
+}
 
 
 .container:nth-of-type(2)::after{
