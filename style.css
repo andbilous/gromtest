@@ -1,37 +1,36 @@
-.container{
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-}
-.container:nth-of-type(1){
-    float: left;
-}
-.container:nth-of-type(1)>footer{
- 
-}
-.container:nth-of-type(2)>footer{
-    margin-top: -16px;
+
+header{
+    height: 50px;
+    background-color: yellow;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 footer{
-    height: 26px !important;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 155px;
+    width: 100%;
 }
 
+main{
+    width: 70%;
+    height: 500px;
+    float: left;
+    padding-top: 50px;
+    background-color: pink;
+}
 
-.container:nth-of-type(2)::after{
+.sidebar{
+    float: right;
+    height: 500px;
+    width: 30%;
+    background-color: grey;
+      padding-top: 50px; 
+}
+
+.sidebar::after{
     clear: both;
 }
 
-.red{
-    float: right;
-   background-color: red;
-}
-p::after { 
-    content: ""; /* Генерируем пустой элемент */
-    clear: both; /* Отменяем обтекание*/
-    display: block; /* Блочный элемент */
-  }
-
-.green{
-    float: left;
-    background-color: green;
-}
