@@ -1,6 +1,25 @@
-section{
-    box-sizing: border-box;
+.container{
+    float: left;
+    /* box-sizing: border-box;
+    display: inline-block; */
 }
+.container:nth-of-type(1){
+    width: 50%;
+    float: left;
+}
+.container:nth-of-type(2){
+    width: 40%; 
+    margin-top: -16px;
+}
+.container:nth-of-type(2)>footer{
+    margin-top: -16px;
+}
+
+
+.container:nth-of-type(2)::after{
+    clear: both;
+}
+
 .red{
     float: right;
    background-color: red;
