@@ -50,13 +50,13 @@ main{
 
 .eye_left{
     position: absolute;
-    top: 70px;
+    top: 80px;
     left: 40px;
 }
 
 .eye_right{
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
     left: 130px;
 }
 
