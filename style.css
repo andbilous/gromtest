@@ -1,8 +1,11 @@
+* {
+    margin: 0;
+}
 div{
     height: 200px;
     display: inline-block;
     width: 20%;
-    margin: -2px !important;
+    float: left;
 }
 
 .block_red{
