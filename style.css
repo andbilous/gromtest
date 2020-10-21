@@ -2,7 +2,7 @@ div{
     height: 200px;
     display: inline-block;
     width: 20%;
-    margin: -1px !important;
+    margin: -2px !important;
     position: relative;
 }
 
