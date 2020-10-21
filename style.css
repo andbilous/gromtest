@@ -49,15 +49,15 @@ main{
 }
 
 .eye_left{
-    position: relative;
-    bottom: 80px;
+    position: absolute;
+    top: 70px;
     left: 40px;
 }
 
 .eye_right{
-    position: relative;
-    bottom: 51px;
-    left: 135px;
+    position: absolute;
+    bottom: 100px;
+    left: 130px;
 }
 
 .ear_right{
