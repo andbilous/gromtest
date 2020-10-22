@@ -15,6 +15,7 @@ header{
 
 header>ul{
     display: flex;
+    margin-left: 16px;
 }
 
 header>ul li{
