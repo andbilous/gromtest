@@ -61,7 +61,12 @@ aside>ul>li{
 footer{
     height: 40px;
     background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 10px;
+}
+
+footer>span{
+    display: block;
+    margin: 0 auto;
+    margin-left: 50vw;
+
 }
