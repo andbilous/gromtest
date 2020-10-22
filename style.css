@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 8px;
     padding: 16px;
+    padding-right: 14px;
     background-color: bisque;
     flex: 1 1 300px;
 }
