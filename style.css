@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+.content{
+    display: flex;
+}
+
 
 ul{
     list-style: none;
@@ -23,12 +27,12 @@ header>ul li{
 }
 
 main{
-    display: flex;
+    width: 100%;
 }
 
 section{
     background-color: pink;
-    flex-basis: 100%;
+    width: 100%;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -38,7 +42,7 @@ section{
 
 aside{
     background-color: grey;
-    flex-basis: 200px;
+    width: 200px;
 }
 
 aside>h2{
