@@ -28,6 +28,7 @@ header>ul li{
 
 main{
     width: 87%;
+    margin-top: -20px;
 }
 
 section{
@@ -35,9 +36,11 @@ section{
     width: 100%;
     text-align: center;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+section>h2{
+    position: relative;
+    top: 45%;
 }
 
 aside{
