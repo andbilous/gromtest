@@ -2,12 +2,11 @@
     visibility: hidden;
 }
 
-.container:first-child{
+
+.container> div:first-child{
     display: none;
 }
 
-
-
-.container:last-child{
-   visibility:visible;
+.container> div:last-child{
+    visibility: visible;
 }
