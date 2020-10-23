@@ -64,6 +64,9 @@ footer{
     height: 40px;
     background-color: green;
     padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer>span{
