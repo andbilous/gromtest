@@ -1,36 +1,43 @@
 *{
     box-sizing: border-box;
 }
-
-.articles{
-    display: flex;
+.dropdown{
+    margin: 16px;
+    cursor: pointer;
+    background-color: darkgreen;
+    opacity: 0.8;
+    font-size: 16px;
+    position: relative;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    height: 34px;
 }
 
-.articles>div{
-    height: 100px;
-    width: 150px;
-    background-color: beige;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 16px;
+.menu-list{
+    /* display: none; */
 }
 
-.cropped{
-    overflow: hidden;
+.menu-list{
+    display: none;
+    position: absolute;
+    top: 34px;
+    min-width: 120px;
+    color: black;
+    list-style-type: none;
+    background-color: lightcyan;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 }
 
-.both-scrolls{
-    overflow-y: scroll;
-    overflow-x: scroll;
+.menu-item{
+    padding: 8px;
 }
 
-.vertical-scroll{
-    overflow-y: scroll;
-}
-
-div[class*='scroll']{
-    cursor: all-scroll;
-}
-
-.visible-text{
+.dropdown:hover .menu-list{
+    display: block;
+    opacity: 1;
+    background-color: ghostwhite;
 }
