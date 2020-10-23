@@ -40,6 +40,9 @@
     display: block;
     opacity: 1;
 }
+.menu-list>li{
+    margin: 16px;
+}
 
  .menu-list>li:hover{
     background-color: ghostwhite;
