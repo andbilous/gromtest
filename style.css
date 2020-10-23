@@ -1,12 +1,35 @@
-.container>div{
-    visibility: hidden;
+*{
+    box-sizing: border-box;
 }
 
-
-.container> div:first-child{
-    display: none;
+.articles{
+    display: flex;
 }
 
-.container> div:last-child{
-    visibility: visible;
+.articles>div{
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.cropped{
+    overflow: hidden;
+}
+
+.both-scrolls{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.vertical-scroll{
+    overflow-y: scroll;
+}
+
+div[class*='scroll']{
+    cursor: all-scroll;
+}
+
+.visible-text{
 }
