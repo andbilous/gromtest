@@ -1,6 +1,10 @@
+*{
+    font-stretch: condensed;
+}
+
 .text .title{
     margin: 16px;
-    width: 96px;
+    width: 80px;
     border-bottom: 1px dotted black;
 }
 
@@ -12,9 +16,10 @@
     border-radius: 4px;
     padding: 8px;
     bottom: -40px;
-    width: 6%;
+    width: 80px;
     margin-left: 16px;
     margin-top: 5px;
+
 }
 
 .text:hover .tooltip{
