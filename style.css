@@ -18,6 +18,7 @@
     bottom: -40px;
     margin-top: 5px;
     max-width: 85px;
+    white-space: nowrap;
 
 }
 
