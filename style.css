@@ -17,6 +17,8 @@ a{
 
 p{
     line-height: 28px;
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 .html1,.css1{
