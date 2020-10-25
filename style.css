@@ -4,7 +4,6 @@
 }
 
 .text .title{
-
     border-bottom: 1px dotted black;
 }
 
@@ -16,8 +15,9 @@
     border-radius: 4px;
     padding: 8px;
     bottom: -40px;
-    /* margin-top: 5px; */
+    margin-top: 5px;
     white-space: nowrap;
+    width: 80%;
 
 }
 
