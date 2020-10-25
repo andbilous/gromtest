@@ -4,7 +4,6 @@
 
 .text .title{
     margin: 16px;
-    width: 80px;
     border-bottom: 1px dotted black;
 }
 
@@ -14,11 +13,13 @@
     background-color: grey;
     color: white;
     border-radius: 4px;
+    font-size: 15px;
     padding: 8px;
     bottom: -40px;
-    width: 80px;
     margin-left: 16px;
     margin-top: 5px;
+    width: 73px;
+    font-stretch: ultra-condensed;
 
 }
 
