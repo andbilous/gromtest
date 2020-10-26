@@ -1,24 +1,26 @@
-body{
-    margin: 32px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+html{
+    font-family: Verdana;
 }
 
 h1{
-    word-spacing: 20px;
-    text-align: center;
-    text-transform: uppercase;
+   font-size: 74px;
+   overflow:hidden; 
+   white-space:nowrap;
+   text-overflow: ellipsis;
 }
 
-a{
-    text-decoration: none;
+div{
+    height: 200px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 200px;
 }
 
 p{
     line-height: 28px;
-    /* overflow: hidden; */
-    /* white-space: nowrap; */
+
 }
 
 .html1,.css1{
