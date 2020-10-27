@@ -9,6 +9,7 @@ header{
 }
 
 h1{
+    margin: 0;
    font-size: 74px;
    width: 50%;
    overflow:hidden; 
