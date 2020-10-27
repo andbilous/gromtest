@@ -1,5 +1,6 @@
 .list{
     list-style: none;
+    font-size: 1.5em;
 }
 
 .first{
@@ -14,7 +15,4 @@
     text-decoration: line-through;
 }
 
-li{
-    font-size: 1.5em;
-}
 
