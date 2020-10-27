@@ -1,18 +1,40 @@
-.list{
-    list-style: none;
-    font-size: 1.5em;
+*{
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
 }
 
-.first{
-    text-decoration: red overline;
+h1{
+   font-size: 74px;
+   text-align: center;
+   overflow:hidden; 
+   white-space:nowrap;
+   text-overflow: ellipsis;
 }
 
-.third{
-    text-decoration: green underline;
+div{
+    height: 200px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 200px;
 }
 
-.second{
-    text-decoration: line-through;
+p{
+    line-height: 28px;
+
+}
+
+.html1,.css1{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.html-t,.css-t{
+    color: grey;
 }
 
 
