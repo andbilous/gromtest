@@ -8,7 +8,7 @@
     font-size: 32px;
     color: white;
     text-align: center;
-    margin-top: 32px;
-    background: center no-repeat url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg");
+    padding-top: 32px;
+    background: center no-repeat  url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg");
 }
 
