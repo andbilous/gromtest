@@ -2,19 +2,15 @@
     box-sizing: border-box;
 }
 
-.mountains{
-    width: 300px;
-    height: 500px;
-    font-weight: 700;
-    font-size: 32px;
-    color: white;
-    text-align: center;
-    padding-top: 32px;
-    background-position: center;
-    background:   url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg") no-repeat center center;
-    -webkit-background-size: auto 100%;
-    -moz-background-size: auto 100%;
-    -o-background-size: auto 100%;
-    background-size: auto 100%;
+.icon{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-position-x: -200px;
+    background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png") -200px 0;
 }
 
+.icon:hover{
+    background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png") -200px -100px;
+
+}
