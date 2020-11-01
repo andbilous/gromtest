@@ -6,5 +6,7 @@
     font-family: Arial;
     font-weight: 700;
     font-size: 96px;
-   color: linear-gradient(45deg, yellow, red);
+   background: linear-gradient(45deg, yellow, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
