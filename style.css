@@ -1,3 +1,11 @@
-body{
-    background:url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg') repeat;
-}
+ *{
+     font-size: 18px;
+ }
+
+ ul li {
+     font-size: 24px;
+     color: #f39;
+     line-height: 32px;
+     padding: 8px;
+     list-style: none;
+ }
