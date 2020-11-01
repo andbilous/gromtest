@@ -1,16 +1,10 @@
-*{
-    box-sizing: border-box;
-}
-
-.icon{
-    margin: 100px;
-    width: 100px;
-    height: 100px;
-    background-position-x: -200px;
-    background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png") -200px 0;
-}
-
-.icon:hover{
-    background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png") -200px -100px;
-
+.header-text{
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 96px;
+   color: linear-gradient(45deg, yellow, red);
 }
