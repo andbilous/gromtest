@@ -10,7 +10,7 @@ input[type="checkbox"]{
 
 .checkmark{
     position: absolute;
-    font-size: 24px;
+ 
     top: 0;
     left: 0;
     display: inline-block;
@@ -20,6 +20,7 @@ input[type="checkbox"]{
 }
 
 .checkbox{
+    font-size: 24px;
     padding-left: 35px;
     position: relative;
     margin: 16px;
