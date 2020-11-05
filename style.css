@@ -25,6 +25,6 @@ input[type="checkbox"]{
     margin: 16px;
 }
 
-.checkbox input:checked +.checkmark{
+.checkbox input:checked + .checkmark{
     background-color:  #006400;
 }
