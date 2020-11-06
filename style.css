@@ -3,13 +3,16 @@
 }
 
 .page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-color: bisque;
 }
 
 .login-form{
-    margin: 0 auto;
     font-size: 16px;
     font-family: monospace;
     background-color: aqua;
