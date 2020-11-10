@@ -5,12 +5,9 @@
     margin: 32px;
 }
 
-form input,form textarea, form select {
+form input,form textarea, form select, form div {
     margin: 8px;
     display: block;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
 }
 
 .languages  {
