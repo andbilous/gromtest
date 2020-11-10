@@ -17,3 +17,10 @@ form input,form textarea, form select {
     align-items: center;
     display: flex;
 }
+
+input[type="radio"]{
+    margin: 0;
+}
+.languages label{
+    margin-right: 3px;
+}
