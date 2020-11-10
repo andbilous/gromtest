@@ -13,12 +13,18 @@ form input,form textarea, form select, form div {
 .languages  {
     align-items: center;
     display: flex;
+    justify-content: flex-start;
 }
 
 
 input[type="radio"]{
     margin: 0;
 }
+
+input[type="color"]{
+    border: 0;
+}
+
 .languages label{
     margin-right: 3px;
 }
