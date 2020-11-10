@@ -5,7 +5,7 @@
     margin: 32px;
 }
 
-form input,form select,form textarea {
+form>* {
     margin: 8px;
     /* display: flex;
     flex-direction: column;
