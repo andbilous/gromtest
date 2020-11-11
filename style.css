@@ -5,7 +5,7 @@
     margin: 32px;
 }
 
-form input,form textarea, form select {
+form input,form textarea {
     margin: 8px;
     display: block;
 }
