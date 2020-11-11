@@ -22,10 +22,6 @@ input[type="radio"]{
     margin: 0;
 }
 
-input[type="color"]{
-    border: 0;
-}
-
 .languages label{
     margin-right: 3px;
 }
