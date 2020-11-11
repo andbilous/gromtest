@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-#form{
+form{
     margin: 32px;
 }
 
@@ -15,13 +15,4 @@ form input,form textarea {
     display: flex;
     justify-content: flex-start;
     padding-left: 10px;
-}
-
-
-input[type="radio"]{
-    margin: 0;
-}
-
-.languages label{
-    margin-right: 3px;
 }
