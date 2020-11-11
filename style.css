@@ -5,14 +5,7 @@ form{
     margin: 32px;
 }
 
-form input,form textarea {
+form>* {
     margin: 8px;
     display: block;
-}
-
-.languages  {
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 10px;
 }
