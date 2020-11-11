@@ -4,8 +4,6 @@
 form{
     margin: 32px;
 }
-
-form>* {
+.form-control,button{
     margin: 8px;
-    display: block;
 }
