@@ -4,6 +4,6 @@
 form{
     margin: 32px;
 }
-.form-control,button{
+.form-control,button,.languages{
     margin: 8px;
 }
