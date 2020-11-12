@@ -4,6 +4,6 @@
 form{
     margin: 32px;
 }
-.form-control input, .languages input{
+form div{
     margin: 8px;
 }
