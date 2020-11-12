@@ -10,6 +10,7 @@ td {
     height: 50px;
     text-align: center;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
 tr:nth-of-type(1) td,
