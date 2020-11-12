@@ -6,8 +6,11 @@ table {
 }
 
 thead {
-    font-weight: 700;
     background-color: aqua;
+}
+
+tfoot {
+    font-weight: 700;
 }
 
 caption {
@@ -15,7 +18,7 @@ caption {
 }
 
 tr {
-    width: 40px;
+    height: 40px;
 }
 
 td,
