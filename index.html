@@ -9,74 +9,42 @@
 </head>
 
 <body>
-    <form>
-        <div>
-            <input value="HTML" placeholder="HTML" disabled name="primaryLanguage" type="text" />
-        </div>
-        <div>
-            <input type="checkbox" name="agree" />
-        </div>
-        <div>
-            <input checked readonly type="checkbox" name="like" />
-        </div>
-        <div>
-            <input type="color" name="favouriteColor" value="#ff7f50" />
-        </div>
-        <div>
-            <input type="date" name="birthDate" value="2021-01-02" />
-        </div>
-        <div>
-            <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" />
-        </div>
-        <div>
-            <input required type="email" name="email" placeholder="example@domain.com" />
-        </div>
-        <div>
-            <input type="file" name="avatar" />
-        </div>
-        <div>
-            <input type="month" value="2020-01" name="startLearning" />
-        </div>
-        <div>
-            <input type="number" name="favouriteNumber" value="17" />
-        </div>
-        <div>
-            <textarea name="story" rows="5" cols="30" placeholder="A long time ago..."></textarea>
-        </div>
-        <div>
-            <input type="password" name="password" value="secret" />
-        </div>
-        <div class="languages">
-            <input type="radio" id="html" value="html" />HTML
-            <input checked id="css" type="radio" value="css" />CSS
-            <input id="javascript" type="radio" value="javascript" />JavaScript
-        </div>
-        <div>
-            <input type="range" name="learningProgress" value="30" />
-        </div>
-        <div>
-            <select form="form" name="framework">
-          <option value="react">React</option>
-          <option selected value="jquery">jQuery</option>
-          <option value="bootstrap">Bootstrap</option>
-        </select>
-        </div>
-        <div>
-            <input placeholder="Type first letters..." type="text" name="search" />
-        </div>
-        <div>
-            <input type="time" name="lunchEnd" value="14:01" />
-        </div>
-        <div>
-            <input type="url" name="website" placeholder="https://website.com" />
-        </div>
-        <div>
-            <input type="week" name="birthWeek" value="2021-W51" />
-        </div>
-        <div>
-            <button type="submit">Save</button>
-        </div>
-    </form>
-</body>
+    <table>
+        <caption>Shopping list</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Milk</td>
+                <td>3</td>
+                <td>$2</td>
+                <td>$6</td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>4</td>
+                <td>$1</td>
+                <td>$4</td>
+            </tr>
+            <tr>
+                <td>Meat</td>
+                <td>5</td>
+                <td>$10</td>
+                <td>$50</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>$60</td>
+                </tr>
+            </tfoot>
+        </tbody>
 
-</html>
+    </table>
+</body>
