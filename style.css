@@ -1,23 +1,30 @@
-.small-bird {
-    width: 64px;
-    height: 64px;
+.custom-button {
+    margin: 64px;
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
 }
 
-.large-bird {
-    width: 320px;
-    height: 320px;
-    max-width: 100%;
+.custom-button:hover {
+    color: darkcyan;
 }
 
-.row {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.bird-icon {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    vertical-align: middle;
 }
 
-.column {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex: 1;
+.bird-icon:hover {
+    fill: green;
 }
