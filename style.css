@@ -1,30 +1,12 @@
-.custom-button {
-    margin: 64px;
-    width: 200px;
-    height: 50px;
-    background-color: coral;
-    color: white;
-    text-transform: uppercase;
-    border-radius: 4px;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    line-height: 50px;
+.container {
+    display: flex;
+    justify-content: space-around;
 }
 
-.custom-button:hover {
-    color: darkcyan;
+.fa-battery-quarter {
+    font-size: 8em;
 }
 
-.bird-icon {
-    width: 32px;
-    height: 32px;
-    fill: white;
-    vertical-align: middle;
-}
-
-.bird-icon:hover {
-    fill: green;
+.fa-battery-empty {
+    font-size: 16em;
 }
