@@ -11,8 +11,8 @@
     height: 100px;
     margin-bottom: 16px;
     background-color: coral;
-    display: flex;
-    align-items: center;
+    text-align: center;
+    line-height: 100px;
     opacity: 0.5;
     transition-property: width 2s, opacity 0.5s;
 }
