@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    padding: 50px;
-}
-
 p {
     position: relative;
     margin: 0 32px;
@@ -14,7 +10,7 @@ p {
     display: inline-block;
     border-radius: 4px;
     z-index: 0;
-    transform: translateX(-50px) translateY(200px);
+    transform: translateX(0px) translateY(100px);
 }
 
 .square {
@@ -23,5 +19,5 @@ p {
     width: 100px;
     height: 100px;
     z-index: 10;
-    transform: scale(1.5) rotate(45deg) translate(200px, 100px);
+    transform: scale(1.5) rotate(45deg) translate(200px, 0px);
 }
