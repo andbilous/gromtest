@@ -3,16 +3,21 @@
 }
 
 p {
+    position: relative;
     margin: 0 32px;
     padding: 8px;
     background-color: antiquewhite;
     display: inline-block;
     border-radius: 4px;
+    z-index: 0;
+    transform: translateX(140px) translateY(10px);
 }
 
 .square {
+    position: relative;
     background-color: tomato;
     width: 100px;
     height: 100px;
-    transform: scale(1.5) rotate(45deg) translateX(142px) translateY(-47px)
+    z-index: 10;
+    transform: scale(1.5) rotate(45deg) translateX(200px) translateY(-100px)
 }
