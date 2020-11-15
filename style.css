@@ -2,72 +2,22 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    height: 100vh;
+p {
+    position: relative;
+    margin: 0 32px;
+    padding: 8px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 4px;
+    z-index: 0;
+    transform: translateX(9px) translateY(10px);
 }
 
-.container {
-    margin: auto;
-}
-
-.spinner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 4px solid lightgrey;
-    border-top: 4px solid black;
-    margin-bottom: 8px;
-    animation-name: spin;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-duration: 2s;
-    animation-delay: 0s;
-}
-
-.spinner-text {
-    font-family: monospace;
-    font-size: 16px;
-    text-transform: uppercase;
-    animation-name: blinking;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes blinking {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(90deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.square {
+    position: relative;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    transform: scale(1.5) rotate(45deg) translateX(150px) translateY(-50px);
 }
