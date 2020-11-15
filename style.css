@@ -10,7 +10,7 @@ p {
     display: inline-block;
     border-radius: 4px;
     z-index: 0;
-    transform: translateX(9px) translateY(10px);
+    transform: translateX(-50px) translateY(200px);
 }
 
 .square {
@@ -19,5 +19,5 @@ p {
     width: 100px;
     height: 100px;
     z-index: 10;
-    transform: scale(1.5) rotate(45deg) translateX(150px) translateY(-50px);
+    transform: scale(1.5) rotate(45deg) translateX(200px) translateY(100px);
 }
