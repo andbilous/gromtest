@@ -6,13 +6,14 @@
     margin: 32px;
 }
 
-.container>div {
+.rect {
     width: 100px;
     height: 100px;
     margin-bottom: 16px;
     background-color: coral;
-    text-align: center;
-    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0.5;
     transition-property: width 2s, opacity 0.5s;
 }
@@ -22,22 +23,22 @@
     opacity: 1;
 }
 
-.container>div:nth-child(1) {
+.linear {
     animation-timing-function: linear;
 }
 
-.container>div:nth-child(2) {
+.ease {
     animation-timing-function: ease;
 }
 
-.container>div:nth-child(3) {
+.ease-in {
     animation-timing-function: ease-in;
 }
 
-.container>div:nth-child(4) {
+.ease-out {
     animation-timing-function: ease-out;
 }
 
-.container>div:nth-child(5) {
+.ease-in-out {
     animation-timing-function: ease-in-out;
 }
