@@ -2,43 +2,17 @@
     box-sizing: border-box;
 }
 
-.container {
-    margin: 32px;
+p {
+    margin: 0 32px;
+    padding: 8px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 4px;
 }
 
-.rect {
+.square {
+    background-color: tomato;
     width: 100px;
     height: 100px;
-    margin-bottom: 16px;
-    background-color: coral;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.5;
-}
-
-.rect:hover {
-    width: 100%;
-    opacity: 1;
-    transition: width 2s, opacity 0.5s;
-}
-
-.linear {
-    animation-timing-function: linear;
-}
-
-.ease {
-    animation-timing-function: ease;
-}
-
-.ease-in {
-    animation-timing-function: ease-in;
-}
-
-.ease-out {
-    animation-timing-function: ease-out;
-}
-
-.ease-in-out {
-    animation-timing-function: ease-in-out;
+    transform: scale(1.5) rotate(45deg) translateX(141px) translateY(-60px)
 }
