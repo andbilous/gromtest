@@ -15,5 +15,5 @@ p {
     width: 100px;
     height: 100px;
     transform-origin: center top;
-    transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+    transform: translate(210px, 100px) rotate(45deg) scale(1.5);
 }
