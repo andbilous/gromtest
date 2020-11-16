@@ -3,11 +3,12 @@
 }
 
 p {
-    margin: 0 10px;
     padding: 8px;
     background-color: antiquewhite;
     display: inline-block;
     border-radius: 4px;
+    margin-left: 0px;
+    margin-top: 5px;
 }
 
 .square {
@@ -15,5 +16,5 @@ p {
     width: 100px;
     height: 100px;
     transform-origin: center top;
-    transform: translate(210px, 100px) rotate(45deg) scale(1.5);
+    transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
