@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-left: 20px;
+}
+
 p {
     background-color: antiquewhite;
     display: inline-block;
     border-radius: 4px;
+    padding: 5px;
+    transform: translate(10px, 130px);
 }
 
 .square {
