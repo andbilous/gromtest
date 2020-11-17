@@ -2,22 +2,16 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-left: 20px;
-}
-
 p {
     background-color: antiquewhite;
-    display: inline-block;
     border-radius: 4px;
-    padding: 5px;
-    transform: translateY(150px);
+    display: inline-block;
+    transform: translate(10px, 150px);
 }
 
 .square {
     background-color: tomato;
     width: 100px;
     height: 100px;
-    transform-origin: center top;
     transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
