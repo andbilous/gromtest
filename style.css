@@ -7,6 +7,7 @@ p {
     border-radius: 4px;
     display: inline-block;
     transform: translate(10px, 150px);
+    padding: 5px;
 }
 
 .square {
