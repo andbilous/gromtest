@@ -6,7 +6,7 @@ p {
     background-color: antiquewhite;
     border-radius: 4px;
     display: inline-block;
-    transform: translate(60px, 150px);
+    transform: translate(50px, 100px);
     padding: 5px;
 }
 
@@ -14,5 +14,5 @@ p {
     background-color: tomato;
     width: 100px;
     height: 100px;
-    transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+    transform: translate(200px, 50px) rotate(45deg) scale(1.5);
 }
