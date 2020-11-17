@@ -6,8 +6,8 @@ p {
     background-color: antiquewhite;
     border-radius: 4px;
     display: inline-block;
-    transform: translate(60px, 80px);
-    padding: 10px;
+    transform: translate(50px, 80px);
+    padding: 8px;
 }
 
 .square {
