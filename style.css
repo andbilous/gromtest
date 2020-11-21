@@ -70,13 +70,8 @@ html {
     background: linear-gradient(60deg, red, orange);
     width: 100%;
     color: white;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header>h1 {
-    margin: 0;
 }
 
 .section {
@@ -84,7 +79,7 @@ html {
 }
 
 .section__header {
-    font-size: 5vh;
+    font-size: 5vw;
     text-align: center;
 }
 
