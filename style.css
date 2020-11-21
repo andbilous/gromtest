@@ -34,8 +34,6 @@ body {
 .main {
     flex: 1;
     display: flex;
-    line-height: 1.75em;
-    font-size: 1.25em;
 }
 
 .navigation,
@@ -56,7 +54,7 @@ body {
     color: #fff;
     margin-bottom: 0.5em;
     padding-left: 0.5em;
-    padding-right: 0.5em;
+    display: flex;
 }
 
 .nav-list-link {
@@ -67,6 +65,7 @@ body {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    margin: auto;
 }
 
 .navigation {
