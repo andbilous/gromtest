@@ -2,11 +2,43 @@
     box-sizing: border-box;
 }
 
-.container {
+span {
+    text-transform: lowercase;
+    font-family: Verdana;
+    border-radius: 4px;
+    background-color: #faebd7;
+    padding: 8px;
+}
+
+.navigation {
+    flex-grow: 1;
+    height: 200px;
+    background-color: #ff7f50;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+}
+
+.product-list {
+    flex-grow: 1;
+    height: 200px;
+    background-color: #006400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    display: flex;
+    height: 200px;
+    background-color: #0ff;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .square {
@@ -17,13 +49,18 @@
 }
 
 @media screen and (min-width: 600px) {
-    .square {
-        background-color: #8a2be2;
+    .container {
+        flex-direction: row;
     }
 }
 
-@media (orientation: portrait) {
-    .container {
-        flex-direction: column;
+@media screen and (min-width: 900px) {
+    body {
+        display: flex;
+    }
+    .news,
+    .product-list,
+    .navigation {
+        width: calc(100vw/3);
     }
 }
