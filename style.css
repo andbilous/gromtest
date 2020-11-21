@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-h1 {
-    line-height: 0.5em;
-}
-
 html {
     font-family: Verdana;
     color: #555;
@@ -23,6 +19,10 @@ body {
     width: 100%;
     color: white;
     text-align: center;
+}
+
+.header>h1 {
+    line-height: 0;
 }
 
 .main {
