@@ -17,11 +17,11 @@ body {
 .header {
     background: linear-gradient(60deg, red, orange);
     width: 100%;
-    color: white;
-    text-align: center;
 }
 
 .header>h1 {
+    color: white;
+    text-align: center;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -41,7 +41,6 @@ body {
 .navigation,
 .section,
 .news,
-.header,
 .footer {
     padding: 0.5em;
 }
