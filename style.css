@@ -37,6 +37,7 @@ html {
     margin-bottom: .5em;
     padding-left: .5em;
     padding-right: .5em;
+    display: flex;
 }
 
 .navigation {
@@ -53,6 +54,7 @@ html {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: auto;
 }
 
 @media screen and (min-width: 600px) {
