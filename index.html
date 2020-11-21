@@ -4,20 +4,28 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <main>
-        <picture>
-            <source media="(max-width: 400px)" srcset="
-            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
-          " />
-            <source srcset="
-            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
-          " />
-            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" />
-        </picture>
+    <header class="header">
+        <i class="fa fa-bars"></i>
+    </header>
+    <main class="main">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a class="nav-list-link" href="#">Responsive images</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-link" href="#">Mediaqueries</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-link" href="#">Flexbox</a>
+                </li>
+            </ul>
+        </nav>
     </main>
 </body>
 
