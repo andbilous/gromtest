@@ -2,16 +2,23 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Verdana;
+    color: #555;
+    font-size: 16px;
+}
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
-html {
-    font-family: Verdana;
-    color: #555;
-    font-size: 16px;
+.header {
+    background: linear-gradient(60deg, red, orange);
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 .main {
@@ -23,8 +30,8 @@ html {
 
 .navigation,
 .section,
-.header,
 .news,
+.header,
 .footer {
     padding: 0.5em;
 }
@@ -63,23 +70,11 @@ html {
 
 .news {
     width: 20%;
-}
-
-.header {
-    display: flex;
-    background: linear-gradient(60deg, red, orange);
-    width: 100%;
-    color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-.header>h1 {
-    margin: 0;
+    text-align: center;
 }
 
 .section {
-    font-size: 1.75em;
+    font-size: 1.25em;
 }
 
 .section__header {
