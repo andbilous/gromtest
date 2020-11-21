@@ -8,11 +8,17 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="navigation"><span>Navigation</span></div>
-        <div class="product-list"><span>Products List</span></div>
-    </div>
-    <div class="news"><span>News</span></div>
+    <main>
+        <picture>
+            <source media="(max-width: 400px)" srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
+          " />
+            <source srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
+          " />
+            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" />
+        </picture>
+    </main>
 </body>
 
 </html>
