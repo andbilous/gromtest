@@ -52,6 +52,10 @@ span {
     .container {
         flex-direction: row;
     }
+    .product-list,
+    .navigation {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 900px) {
