@@ -19,7 +19,7 @@
   cursor: pointer;
   background-color: #ff7f50;
 }
-.nav-list__item__selected {
+.nav-list__item_selected {
   background-color: #fb0;
 }
 .nav-list__item:hover {
