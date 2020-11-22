@@ -117,12 +117,11 @@ img {
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .main {
         flex-direction: row;
-        position: relative;
         height: 800px;
     }
     .news {
         position: absolute;
-        top: 650px;
+        top: 750px;
     }
     .navigation {
         width: 20%;
