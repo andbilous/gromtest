@@ -1,48 +1,80 @@
+.header {
+  height: 3em;
+  width: 100%;
+  background-color: #006400;
+  padding: 1em;
+  border: none;
+  outline: none;
+}
+.header .menu {
+  margin-left: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  display: flex;
+}
+.header .menu__item {
+  transform: translateY(-1em);
+  padding-top: 1em;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 3em;
+  padding-top: 1em;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.header .menu__item .submenu {
+  cursor: pointer;
+  z-index: 1;
+  min-width: 120px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+  background-color: #ff7f50;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  transform: translate(20px, 12px);
+}
+.header .menu__item .submenu__item {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.header .menu__item .submenu__item:hover {
+  color: black;
+}
+.header .menu__item:hover {
+  background-color: #9acd32;
+}
+.header .menu__item_active {
+  color: yellow;
+}
+.header .menu__item_active:hover .submenu {
+  display: block;
+}
+.header .menu__item_active:hover .header .menu__item {
+  margin-top: 3em;
+}
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (orientation: landscape) {
-  .container {
-    flex-direction: row;
-  }
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-  margin: 8px;
-}
-@media screen and (min-width: 600px) {
-  .square {
-    background-color: #8a2be2;
-  }
-}
-@media screen and (min-width: 900px) {
-  .square {
-    background-color: #a61;
-  }
-}
-@media screen and (max-width: 599px) {
-  .square {
-    background-color: #ff7f50;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .square {
-    background-color: #c47;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
