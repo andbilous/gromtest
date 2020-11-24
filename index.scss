@@ -1,31 +1,14 @@
-@import 'layout.scss';
+@import 'header.scss';
 * {
     box-sizing: border-box;
 }
 
-div {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
-.navigation {
-    background-color: #ff7f50;
-}
-
-.news {
-    background-color: #0ff;
-}
-
-.plist {
-    background-color: #006400;
-}
-
-span {
-    text-transform: lowercase;
-    padding: 8px;
-    background-color: #faebd7;
-    font-family: Verdana;
-    border-radius: 4px;
+li {
+    cursor: pointer;
+    color: #fff;
 }
