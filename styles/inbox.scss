@@ -8,8 +8,10 @@
         padding-top: 115px;
     }
     &__content {
+        width: 250px;
         margin: 0;
         @include for-large-up {
+            width: 459px;
             margin-left: 164px;
         }
     }

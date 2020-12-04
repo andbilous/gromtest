@@ -317,6 +317,92 @@
   height: 60px;
 }
 
+.order {
+  padding: 50px 15px;
+  background-color: #F4F5F7;
+}
+@media screen and (min-width: 1400px) {
+  .order {
+    padding: 73px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.order__details {
+  max-width: 555px;
+}
+.order__illustration {
+  max-width: 200px;
+}
+@media screen and (min-width: 1400px) {
+  .order__illustration {
+    max-width: 269px;
+    margin-right: 121px;
+  }
+}
+.order__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.35px;
+  margin-top: 40px;
+}
+.order__text {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0;
+  margin-top: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .order__form {
+    display: flex;
+    margin-top: 26px;
+  }
+}
+.order__email {
+  margin-top: 40px;
+  background: #fff;
+  border: 1px solid #2B292D33;
+  border-radius: 2px;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .order__email {
+    margin-top: 0;
+  }
+}
+.order__email::placeholder {
+  color: #2B292D;
+}
+.order__button {
+  margin-top: 12px;
+}
+@media screen and (max-width: 1399px) {
+  .order__button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__button {
+    margin-top: 0;
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
+}
+.order__terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: #2b292d99;
+}
+.order__terms-link {
+  color: #3142C6;
+}
+
 .headline {
   width: 100%;
 }
@@ -408,7 +494,7 @@
   width: 100%;
   margin-bottom: 36px;
 }
-@media screen and (max-width: 1399px) {
+@media screen and (min-width: 1400px) {
   .headline__banner {
     width: 796px;
     height: 448px;
@@ -761,10 +847,12 @@
   }
 }
 .inbox__content {
+  width: 250px;
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .inbox__content {
+    width: 459px;
     margin-left: 164px;
   }
 }
@@ -830,6 +918,221 @@
   .inbox .review__line {
     width: 100%;
   }
+}
+
+.hiring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+}
+.hiring .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hiring .content__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #2B292D;
+}
+.hiring .content__description {
+  margin: 0;
+  margin-top: 18px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #2B292D;
+}
+.hiring .content__more {
+  width: 290px;
+  margin-top: 30px;
+}
+.hiring .job-list {
+  padding: 0;
+  width: 290px;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hiring .job-list .item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 8px;
+  height: 140px;
+  margin: 0;
+  margin-top: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring .job-list .item {
+    padding: 26px 24.9px 27px 25px;
+    height: 81px;
+    background: #fff;
+    width: 750px;
+    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+  }
+}
+.hiring .job-list .item:hover {
+  background-color: #3141C5;
+}
+.hiring .job-list .item:hover .item__icon-grey {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png") no-repeat;
+}
+.hiring .job-list .item:hover .item__title,
+.hiring .job-list .item:hover .item__location {
+  color: #fff;
+}
+.hiring .job-list .item__content {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring .job-list .item__content {
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+.hiring .job-list .item__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+.hiring .job-list .item__location {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2B292D;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.hiring .job-list .item__icon-container {
+  background-color: grey;
+  width: 50px;
+  border-radius: 0px 8px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .hiring .job-list .item__icon-container {
+    background-color: inherit;
+  }
+}
+.hiring .job-list .item__icon-grey {
+  width: 7px;
+  height: 12px;
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png") no-repeat;
+}
+
+.communication {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  padding: 50px 15px 0 15px;
+}
+.communication .headrow {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .communication .headrow {
+    flex-direction: row;
+  }
+}
+.communication .headrow .content__subtitle {
+  display: block;
+  margin: 0;
+  margin-top: 123px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #0189D1;
+}
+.communication .headrow .content__title {
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #2B292D;
+}
+.communication .headrow .content__description {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 34px;
+  color: #2B292D;
+}
+.communication .headrow .content__decoration {
+  margin: 0;
+  margin-top: 110px;
+}
+.communication .headrow .content__decoration-caption {
+  margin: 0;
+  margin-top: 15px;
+}
+.communication .headrow .content__button {
+  margin: 0;
+  margin-top: 39px;
+}
+.communication .line {
+  width: 150px;
+  height: 1px;
+  margin: 0;
+  margin-top: 26px;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+}
+.communication .subscriptions {
+  margin: 0;
+  padding: 0;
+  margin-top: 41px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .communication .subscriptions {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+.communication .subscriptions__item {
+  width: 290px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2B292D;
+  margin: 0;
+  margin-bottom: 33px;
+}
+.communication .subscriptions__item p {
+  margin: 0;
+  padding: 0;
+}
+.communication .subscriptions__item a {
+  color: #3040C4;
+}
+.communication .subscriptions__item-bold {
+  font-weight: 700;
 }
 
 * {

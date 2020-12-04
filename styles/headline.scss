@@ -75,7 +75,7 @@
     &__banner {
         width: 100%;
         margin-bottom: 36px;
-        @include for-large-down {
+        @include for-large-up {
             width: 796px;
             height: 448px;
             margin-left: auto;
