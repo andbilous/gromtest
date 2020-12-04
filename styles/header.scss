@@ -60,6 +60,9 @@
         height: 5px;
         width: 8px;
         margin-left: 11px;
+        @include for-large-up {
+            display: none;
+        }
     }
     &__item_selected {
         font-weight: 700;
