@@ -83,6 +83,11 @@
             margin-right: 15px;
         }
     }
+    &__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
     &__text {
         display: flex;
         flex-direction: column;
