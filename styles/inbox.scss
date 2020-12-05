@@ -8,8 +8,10 @@
         padding-top: 115px;
     }
     &__content {
-        width: 250px;
+        width: 100%;
         margin: 0;
+        display: flex;
+        flex-direction: column;
         @include for-large-up {
             width: 459px;
             margin-left: 164px;
@@ -25,12 +27,12 @@
     }
     &__title {
         font-weight: bold;
-        font-size: 40px;
-        line-height: 40px;
-        letter-spacing: -0.357143px;
         color: $color-dark;
         margin: 0;
         margin-top: 17px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
     }
     &__description {
         font-size: 24px;
@@ -40,7 +42,7 @@
         margin-top: 18px;
     }
     .review {
-        margin: 0;
+        margin: auto;
         margin-top: 30px;
         padding-top: 30px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
