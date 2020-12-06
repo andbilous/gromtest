@@ -148,6 +148,7 @@
 
 .top-section {
   background: #F3C6BD;
+  width: 100%;
 }
 @media screen and (min-width: 1400px) {
   .top-section {
@@ -804,6 +805,7 @@
   border-radius: 8px;
   margin: auto;
   margin-right: 30px;
+  margin-bottom: 15px;
 }
 .audiences .audience__decoration:hover {
   background: #3141C5;
