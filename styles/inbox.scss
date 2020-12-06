@@ -7,6 +7,12 @@
         flex-direction: row;
         padding-top: 115px;
     }
+    &__image {
+        width: 100%;
+        @include for-large-up {
+            width: 425px;
+        }
+    }
     &__content {
         width: 100%;
         margin: 0;
