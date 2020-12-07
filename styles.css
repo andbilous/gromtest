@@ -33,6 +33,7 @@ html .container {
   height: 100vh;
 }
 html .container .card {
+  margin: 0;
   width: 380px;
   height: 770px;
   background: #334247;
