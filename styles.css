@@ -26,7 +26,6 @@ html .container {
   justify-content: center;
   min-width: 1700px;
   align-items: center;
-  height: 100vh;
 }
 html .container .card {
   width: 380px;
@@ -65,9 +64,9 @@ html .container .card .header__popular {
   background-color: #DC3F45;
   transform: rotate(45deg);
   position: absolute;
-  right: -41px;
+  right: -30px;
   text-align: center;
-  top: 25px;
+  top: 30px;
   width: 147px;
 }
 html .container .card .header__title {
