@@ -90,9 +90,11 @@ html .container .card .header .titles__main {
   margin: 0;
 }
 html .container .card .header .titles__sub {
+  font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 36px;
 }
 html .container .card .price {
   background-color: #5BB189;
@@ -118,8 +120,6 @@ html .container .card .description {
   text-align: center;
 }
 html .container .card .list {
-  margin: 0;
-  margin-top: 40px;
   padding: 0;
   height: 300px;
 }
