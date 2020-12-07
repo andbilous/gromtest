@@ -1,0 +1,141 @@
+ul {
+    list-style-type: none;
+}
+
+button {
+    width: 154.63px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+html {
+    font-family: Montserrat;
+    background: #141B1C;
+    color: #fff;
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 112px 132px 115px 132px;
+        min-width: 1700px;
+        .card {
+            width: 380px;
+            background: #334247;
+            box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+            margin: 0;
+            margin-right: 18px;
+            display: flex;
+            flex-direction: column;
+            &:nth-of-type(1) {
+                button,
+                .price {
+                    background: #5BB189;
+                }
+            }
+            &:nth-of-type(2) {
+                button,
+                .price {
+                    background: #3A6BA5;
+                }
+            }
+            &:nth-of-type(3) {
+                button,
+                .price {
+                    background: #EC632A;
+                }
+            }
+            .header {
+                padding: 33px 140px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                overflow: hidden;
+                &__popular {
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 17.07px;
+                    background-color: #DC3F45;
+                    transform: rotate(45deg);
+                    position: absolute;
+                    right: -41px;
+                    text-align: center;
+                    top: 25px;
+                    width: 147px;
+                }
+                &__title {
+                    font-weight: 700;
+                    font-size: 35px;
+                    line-height: 43px;
+                    margin: 0;
+                }
+                &__subtitle {
+                    margin: 0;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+            .price {
+                background-color: #5BB189;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 19px 110px;
+                &__value {
+                    font-weight: bold;
+                    font-size: 55px;
+                    line-height: 67px;
+                    &:after {
+                        content: '\20AC'
+                    }
+                }
+            }
+            .description {
+                margin-top: 40px;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: center;
+                padding-left: 26px;
+                padding-right: 26px;
+            }
+            .list {
+                margin: 0;
+                margin-top: 40px;
+                padding: 0;
+                &__item {
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 18px;
+                    mix-blend-mode: normal;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    &:nth-of-type(2n-1) {
+                        background: rgba(42, 52, 56, 0.5);
+                        mix-blend-mode: normal;
+                    }
+                    span {
+                        margin: 0;
+                        margin-left: 22px;
+                    }
+                    img {
+                        margin: 0;
+                        margin-left: 22px;
+                    }
+                }
+            }
+            &__order {
+                margin: auto;
+                margin-top: 39px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

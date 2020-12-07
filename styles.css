@@ -1,0 +1,138 @@
+@charset "UTF-8";
+ul {
+  list-style-type: none;
+}
+
+button {
+  width: 154.63px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+html {
+  font-family: Montserrat;
+  background: #141B1C;
+  color: #fff;
+}
+html .container {
+  display: flex;
+  justify-content: center;
+  padding: 112px 132px 115px 132px;
+  min-width: 1700px;
+}
+html .container .card {
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin: 0;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+}
+html .container .card:nth-of-type(1) button,
+html .container .card:nth-of-type(1) .price {
+  background: #5BB189;
+}
+html .container .card:nth-of-type(2) button,
+html .container .card:nth-of-type(2) .price {
+  background: #3A6BA5;
+}
+html .container .card:nth-of-type(3) button,
+html .container .card:nth-of-type(3) .price {
+  background: #EC632A;
+}
+html .container .card .header {
+  padding: 33px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+html .container .card .header__popular {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  background-color: #DC3F45;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -41px;
+  text-align: center;
+  top: 25px;
+  width: 147px;
+}
+html .container .card .header__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  margin: 0;
+}
+html .container .card .header__subtitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+html .container .card .price {
+  background-color: #5BB189;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 110px;
+}
+html .container .card .price__value {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+}
+html .container .card .price__value:after {
+  content: "€";
+}
+html .container .card .description {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+html .container .card .list {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+}
+html .container .card .list__item {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  mix-blend-mode: normal;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+html .container .card .list__item:nth-of-type(2n-1) {
+  background: rgba(42, 52, 56, 0.5);
+  mix-blend-mode: normal;
+}
+html .container .card .list__item span {
+  margin: 0;
+  margin-left: 22px;
+}
+html .container .card .list__item img {
+  margin: 0;
+  margin-left: 22px;
+}
+html .container .card__order {
+  margin: auto;
+  margin-top: 39px;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
