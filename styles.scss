@@ -21,8 +21,9 @@ html {
     color: #fff;
     .container {
         display: flex;
-        min-width: 1200px;
-        padding: 115px 132px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         .card {
             width: 380px;
             background: #334247;
