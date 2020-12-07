@@ -1,6 +1,7 @@
 .audience {
     padding: 50px 15px;
     background: rgba(0, 161, 198, .07);
+    width: 320px;
     &__subtitle {
         display: block;
         font-weight: bold;
@@ -50,16 +51,17 @@
             margin-left: 10px;
         }
     }
-    .audience {
+    .categories {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 111px;
+        margin: 0;
+        margin-top: 40px;
         @include for-large-up {
             flex-direction: row;
         }
         &__decoration {
-            width: 262px;
+            width: 100%;
             padding: 22px 15px;
             display: flex;
             flex-direction: column;
