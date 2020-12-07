@@ -4,7 +4,8 @@ ul {
 }
 
 button {
-  width: 154.63px;
+  margin: 37px 113px 42px 112px;
+  width: 155px;
   height: 40px;
   border-radius: 20px;
   border: none;
@@ -130,7 +131,6 @@ html .container .card .list__item img {
   margin-left: 22px;
 }
 html .container .card__order {
-  margin: auto;
   margin-top: 39px;
   margin-bottom: 40px;
 }
