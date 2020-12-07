@@ -740,12 +740,15 @@
   text-align: center;
   letter-spacing: -0.357143px;
   color: #2B292D;
+  margin-bottom: 0;
 }
 .audience__description {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
   color: #2B292D;
+  margin: 0;
+  margin-top: 17px;
 }
 .audience__buttons {
   text-align: center;
