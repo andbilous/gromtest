@@ -732,6 +732,8 @@
   line-height: 34px;
   text-align: center;
   color: #2B292D;
+  margin: 0;
+  padding: 0;
 }
 .audience__title {
   font-weight: 700;
@@ -740,7 +742,8 @@
   text-align: center;
   letter-spacing: -0.357143px;
   color: #2B292D;
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 17px;
 }
 .audience__description {
   font-size: 24px;
@@ -748,10 +751,12 @@
   text-align: center;
   color: #2B292D;
   margin: 0;
-  margin-top: 17px;
+  margin-top: 18px;
 }
 .audience__buttons {
   text-align: center;
+  margin: 0;
+  margin-top: 30px;
 }
 .audience__action-btn {
   margin: 0;
