@@ -25,6 +25,8 @@ html .container {
   display: flex;
   justify-content: center;
   min-width: 1700px;
+  align-items: center;
+  height: 100vh;
 }
 html .container .card {
   width: 380px;

@@ -23,6 +23,8 @@ html {
         display: flex;
         justify-content: center;
         min-width: 1700px;
+        align-items: center;
+        height: 100vh;
         .card {
             width: 380px;
             background: #334247;
