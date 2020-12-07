@@ -23,7 +23,7 @@ html {
 }
 html .container {
   display: flex;
-  min-width: 1700px;
+  min-width: 1200px;
   padding: 115px 132px;
 }
 html .container .card {
