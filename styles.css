@@ -79,7 +79,7 @@ html .container .card .header .popular__text {
   transform: rotate(45deg);
 }
 html .container .card .header .titles {
-  margin: 33px 140px;
+  margin: 36px 102px 33px 102px;
   text-align: center;
 }
 html .container .card .header .titles__main {
@@ -124,7 +124,6 @@ html .container .card .list {
 }
 html .container .card .list__item {
   font-weight: 300;
-  font-size: 15px;
   height: 50px;
   line-height: 50px;
 }
@@ -135,6 +134,8 @@ html .container .card .list__item:nth-of-type(2n-1) {
 html .container .card .list__item span {
   margin: 0;
   margin-left: 22px;
+  line-height: 18px;
+  font-size: 15px;
 }
 html .container .card .list__item img {
   margin: 0;
