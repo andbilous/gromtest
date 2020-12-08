@@ -7,7 +7,6 @@ ul {
 }
 
 button {
-    margin: 37px 113px 42px 112px;
     width: 155px;
     height: 40px;
     border-radius: 20px;
@@ -41,6 +40,7 @@ html {
                 .price {
                     background: #5BB189;
                 }
+              
             }
             &:nth-of-type(2) {
                 button,
@@ -142,8 +142,7 @@ html {
                 }
             }
             &__order {
-                margin-top: 39px;
-                margin-bottom: 40px;
+                margin: 40px 114px 40px 112px;
             }
         }
     }
