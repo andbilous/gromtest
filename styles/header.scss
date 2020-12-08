@@ -1,6 +1,5 @@
 .header {
     height: 64px;
-    width: 320px;
     align-items: center;
     display: flex;
     padding-left: 15px;
@@ -107,8 +106,10 @@
 
 .top-section {
     background: #F3C6BD;
+    width: 320px;
     @include for-large-up {
         background-color: #F3C6BD;
         padding-top: 39px;
+        width: 100%;
     }
 }

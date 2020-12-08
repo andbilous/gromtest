@@ -23,7 +23,6 @@
 
 .header {
   height: 64px;
-  width: 320px;
   align-items: center;
   display: flex;
   padding-left: 15px;
@@ -142,11 +141,13 @@
 
 .top-section {
   background: #F3C6BD;
+  width: 320px;
 }
 @media screen and (min-width: 1400px) {
   .top-section {
     background-color: #F3C6BD;
     padding-top: 39px;
+    width: 100%;
   }
 }
 
@@ -555,7 +556,7 @@
 
 .about {
   padding: 46px 15px;
-  width: 100%;
+  width: 320px;
   background: #F4F5F7;
 }
 @media screen and (min-width: 1400px) {
@@ -563,6 +564,7 @@
     display: flex;
     justify-content: space-between;
     padding: 77px 130px 76px 130px;
+    width: 100%;
   }
 }
 
