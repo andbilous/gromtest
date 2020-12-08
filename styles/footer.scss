@@ -2,6 +2,7 @@
     margin-top: auto;
     display: flex;
     flex-direction: column;
+    width: 320px;
     .logo {
         display: block;
         @include for-large-down {

@@ -4,6 +4,10 @@
     padding: 0;
     margin: 0;
     padding: 50px 15px 0 15px;
+    width: 320px;
+    @include for-large-up {
+        width: 100%;
+    }
     .headrow {
         display: flex;
         flex-direction: column;
