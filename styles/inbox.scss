@@ -1,6 +1,6 @@
 .inbox {
     padding: 50px 15px 48px 15px;
-    background: #FCF0E3;
+    background: #fcf0e3;
     display: flex;
     flex-direction: column;
     width: 320px;
@@ -53,13 +53,15 @@
         margin: auto;
         margin-top: 30px;
         padding-top: 30px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%), #ffffff;
         background-blend-mode: overlay, normal;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+            inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         &__content {
             margin-left: 20px;
             margin-right: 30px;
-            @include for-large-up {}
+            @include for-large-up {
+            }
         }
         &__text {
             font-size: 20px;
@@ -84,8 +86,7 @@
             width: 100%;
             margin-top: 30px;
             height: 4px;
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%),
-            #0185D0;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%), #0185d0;
         }
     }
 }
